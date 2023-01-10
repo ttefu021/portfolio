@@ -1,0 +1,90 @@
+body {
+    background-color: #fbab14;
+    padding-bottom: 0px;
+}
+
+.content {
+    border-bottom: black solid;
+}
+
+.myInfo {
+    width: 50%;
+    display: inline-block;
+}
+
+.Image {
+    display: inline-block;
+}
+
+.title {
+    font-size: 70px;
+    padding-left: 60px;
+    padding-bottom: 40px;
+    color: black;
+}
+
+.main {
+    padding-bottom: 0px;
+    font-weight: 800;
+}
+
+.sub {
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.nav_bar {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 40px;
+    position: absolute;
+    right: 40px;
+    top: 15px;
+    background-image: linear-gradient(-135deg, #fbab14, transparent),
+    linear-gradient(135deg, #fbab14, transparent);
+}
+
+
+
+.bio {
+    font-size: 25px;
+    padding-left: 40px;
+    width: 80%;
+    height: 100px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+}
+
+.symbol {
+    background-color: black;
+    width: 500px;
+    height: 100px;
+    background-image: linear-gradient( #fbab14, transparent );
+    display: inline-block;
+}
+
+.fa-brands {
+    font-size: 3em;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+.fa-brands:hover {
+    background-color: black;
+    color: #fbab14;
+}
+
+.fa-brands:link {
+    color: #fbab14;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.bar:hover {
+    background-color: black;
+    color: #fbab14;
+}
+
