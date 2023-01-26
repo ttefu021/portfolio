@@ -49,6 +49,12 @@ body {
     transition: color 0.2s;
 }
 
+.header_logo:hover {
+    border: #fbab14 solid 0.1px;
+    padding: 6px;
+    border-radius: 10px;
+}
+
 .logo_img {
   width: 5rem;
   height: 5rem;
@@ -101,7 +107,8 @@ li {
 
 .header_link:hover {
     color: #333;
-    background: #fbab14;;
+    background: #fbab14;
+    border-radius: 12%;
 }
 
 a {
@@ -117,6 +124,7 @@ a {
     min-height: 80rem;
     max-height: 120rem;
     position: relative;
+    border-bottom: #333 solid px;
 }
 
 .home_content {
@@ -125,7 +133,7 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 90rem;
-    width: 92%;
+    width: 70%;
     /* border: solid 1px black; */
 }
 
@@ -137,6 +145,8 @@ a {
     color: #333;
     text-align: center;
     margin-bottom: 5rem;
+    /* border: solid 1px black; */
+
 }
 
 .home_info {
@@ -144,6 +154,7 @@ a {
     max-width: 80rem;
     display: flex;
     justify-content: space-evenly;
+    /* border: solid 1px black; */
 }
 
 .home_info_text {
@@ -152,31 +163,48 @@ a {
     text-align: center;
     font-weight: 700;
     /* margin-bottom: 3rem; */
+    /* border: solid 1px black; */
 }
+
+/* .home_info_pic {
+    border: solid 1px black;
+} */
 
 .external_links {
     position: absolute;
-    top: 65%;
+    top: 50%;
     transform: translateY(-50%);
     background: #fbab14;
-    padding: 2rem;
+    width: 10%;
+    
+    /* border: solid 1px black; */
+
 }
 
 .link {
-    width: 6rem;
+    width: 80%;
+    margin:auto; 
+    /* padding: 10px 10px 10px 10px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border: solid 1px black; */
 }
 
 .social_icon {
     width: 100%;
     display: block;
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
+    margin: auto;
     transition: transform 0.3s;
     border-radius: 5px;
+    text-align: center;
 }
 
 .fa-brands {
-    font-size: 3rem;
+    font-size: 5rem;
     /* padding-right: 4px; */
+    text-align: center;
+
 }
 
 .link:hover {
@@ -193,11 +221,12 @@ a {
     max-width: 120rem;
     margin: auto;
     width: 92%;
-
+    border-top: #333 solid 10px;
+    padding-bottom: 5%;
 }
 
 #about_content {
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
 h2 {
@@ -259,6 +288,13 @@ h2 {
     border-radius: 5px;
     font-weight: 600;
     color: #fbab14;
+}
+
+#projects {
+    border-top: #333 solid 10px;
+    width: 92%;
+    margin: auto;
+    padding-top: 8%;
 }
 
 .main-footer {
